@@ -72,7 +72,7 @@ public class TextUtils {
         return yn;
     }
 
-    // simuler un clear de la console
+    // simulate a console clear
     public void clearConsole() {
         for (int i = 0; i < 100; i++) {
             System.out.println();
