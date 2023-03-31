@@ -19,7 +19,7 @@ public class Game {
     // Enemies
     Enemy Basilisk = new Enemy("Basilisk", 140, 40);
     Enemy Dementor = new Enemy("Dementor", 100, 30);
-    Enemy DeathEater = new Enemy("Death Eater", 120, 20);
+    Enemy DeathEater = new Enemy("Death Eater", 120, 30 );
 
     // Boss
     Boss Troll = new Boss("Troll", 250, 15, null, 0);

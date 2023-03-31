@@ -18,12 +18,14 @@ public class TextUtils {
 
             try {
                 input = Integer.parseInt(sc.next());
-            } catch (Exception e) {
+            }
+            catch (Exception e) {
                 input = -1;
                 System.out.println("Unknown choice, please enter one of the proposals");
             }
 
-        } while(input < 1 || input > Choices);
+        }
+        while(input < 1 || input > Choices);
 
         return input;
     }
@@ -77,7 +79,7 @@ public class TextUtils {
         }
     }
 
-    // séparateur de longueur n
+    // separator length n
     public void printSeparator(int n) {
         for (int i = 0; i < n; i++) {
             System.out.print("-");
@@ -85,7 +87,7 @@ public class TextUtils {
         System.out.println();
     }
 
-    // print un entête
+    // print head
     public void printHeading(String title) {
         printSeparator(title.length());
         System.out.println(title);
